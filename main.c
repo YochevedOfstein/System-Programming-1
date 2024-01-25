@@ -20,7 +20,7 @@ int main(){
 
     if((number2 < 0) || (number1 < 0)){
       printf("Invalid number");
-      return 0;
+      return 1;
     }
 
     printf("The Armstrong numbers are:");
@@ -56,5 +56,5 @@ int main(){
         }
     }
      printf("\n"); 
-     return 1;     
+     return 0;     
 }
