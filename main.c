@@ -6,8 +6,11 @@ int main(){
     int number1;
     int number2;
 
+
+    printf("Enter first number:\n");
     scanf("%d", &number1);
 
+    printf("Enter second number:\n");
     scanf("%d", &number2);
 
 
