@@ -6,16 +6,21 @@ int main(){
     int number1;
     int number2;
 
-    printf("Enter first number:\n");
     scanf("%d", &number1);
 
-    printf("Enter second number:\n");
     scanf("%d", &number2);
-    
-        printf("The Armstrong numbers are:");
+
+
+    if (number1 > number2){
+      int temp = number2;
+      number2 = number1;
+      number1 = temp;
+    }
+
+    printf("The Armstrong numbers are:");
     
     for( int i =number1; i<= number2; i++){
-        if(isArmstrong(i) == 1){
+      if(isArmstrong(i) == 1){
           printf(" %d", i);
         }
     }
@@ -44,5 +49,6 @@ int main(){
           printf(" %d", i); 
         }
     }
-     printf("\n");      
+     printf("\n"); 
+     return 0;     
 }
