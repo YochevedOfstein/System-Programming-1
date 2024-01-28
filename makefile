@@ -4,7 +4,7 @@ OBJ_LOOPS = basicClassification.o advancedClassificationLoop.o
 OBJ_RECURSIVES = basicClassification.o advancedClassificationRecursion.o
 OBJ_RECURSIVED = basicClassification.o advancedClassificationRecursion.o
 OBJ_LOOPD = basicClassification.o advancedClassificationLoop.o
-FLAGS = -Wall -g
+FLAGS = -Wall -g -fPIC
 
 
 all: loops recursives recursived loopd mains maindloop maindrec
